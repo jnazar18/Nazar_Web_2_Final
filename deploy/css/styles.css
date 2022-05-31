@@ -355,6 +355,10 @@ template {
 /* =============
     Typography
 ============= */
+body {
+  font-family: "Cabin", sans-serif;
+}
+
 /* =============
     Buttons
 ============= */
