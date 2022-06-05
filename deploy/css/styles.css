@@ -434,34 +434,33 @@ footer {
 /* =============
     Section1
 ============= */
-.section1 {
+._section1a {
   display: grid;
   grid-template-columns: 70% 30%;
 }
 @media (min-width: 576px) {
-  .section1 {
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "image1 aside" "image2 aside";
+  ._section1a {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "image1 h2 aside" "image2 h2 aside";
   }
 }
 @media (min-width: 576px) {
-  .section1 .text1 {
+  ._section1a .text1 {
     grid-area: text1;
   }
 }
-.section1 .image1 {
+._section1a .image1 {
   display: grid;
   grid-template-columns: 50% 50%;
 }
 @media (min-width: 576px) {
-  .section1 .image1 {
+  ._section1a .image1 {
     grid-area: image1;
   }
 }
-@media (min-width: 576px) {
-  .section1 .aside {
-    grid-area: aside;
-  }
+._section1a .aside {
+  background-color: #C3D4BC;
+  padding-left: 80px;
 }
 
 /* =============
