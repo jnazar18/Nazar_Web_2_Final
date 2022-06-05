@@ -4,28 +4,37 @@
 
 ._section1a{
     display: grid;
-    grid-template-columns: 70% 30%;
-
-
-@include sm{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
-    "image1 h2 aside"
-    "image2 h2 aside";
+    "image1 landscaping_header aside"
+    "image1 landscaping_body aside"
+    "image2 hardscaping_header aside"
+    "image2 hardscaping_body aside";
+
+.landscaping_header{
+    font-family: 'Trirong';
+    font-weight: 700;
+    font-size: 24;
+    color: #64665D;
 }
 
-.text1{
-    @include sm{
-        grid-area: text1;
-    }
+.landscaping_body{
+    font-family: 'Cabin' , sans-serif;
+    color: #64665D;
 }
-.image1{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    @include sm{
-        grid-area: image1;
-    }
+
+.hardscaping_header{
+    font-family: 'Trirong';
+    font-weight: 700;
+    font-size: 24;
+    color: #64665D;
 }
+
+.hardscaping_body{
+    font-family: 'Cabin' , sans-serif;
+    color: #64665D;
+}
+
 .aside{
         background-color: #C3D4BC;
         padding-left: 80px;
