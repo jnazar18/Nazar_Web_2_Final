@@ -357,12 +357,28 @@ template {
 ============= */
 body {
   font-family: "Cabin", sans-serif;
+  color: #64665D;
+}
+
+footer {
+  font-family: "Trirong";
+  font-size: 700;
+  font-weight: 21;
+  color: #E3E6DC;
+  background-color: #65715E;
 }
 
 h1 {
   font-family: "Trirong";
   font-weight: 700;
   font-size: 28;
+  color: #64665D;
+}
+
+h2 {
+  font-family: "Trirong";
+  font-weight: 700;
+  font-size: 24;
   color: #64665D;
 }
 
