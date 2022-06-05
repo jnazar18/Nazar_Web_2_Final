@@ -5,8 +5,9 @@
 .header{
     display: grid;
     grid-template-columns: 10% 80% 10%;
-    grid-template-rows: 
-    "logo h1 socials"
-    "logo h1 Search_Bar";
+
 }
 
+.logo{
+    width:30px;
+}

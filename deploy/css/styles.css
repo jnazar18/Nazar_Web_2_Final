@@ -386,12 +386,51 @@ textarea {
 /* =============
     Header
 ============= */
+.header {
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+}
+
+.logo {
+  width: 30px;
+}
+
 /* =============
     Footer
 ============= */
 /* =============
-    Base
+    Section1
 ============= */
+.section1 {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+@media (min-width: 576px) {
+  .section1 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "image1 aside" "image2 aside";
+  }
+}
+@media (min-width: 576px) {
+  .section1 .text1 {
+    grid-area: text1;
+  }
+}
+.section1 .image1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+@media (min-width: 576px) {
+  .section1 .image1 {
+    grid-area: image1;
+  }
+}
+@media (min-width: 576px) {
+  .section1 .aside {
+    grid-area: aside;
+  }
+}
+
 /* =============
     Base
 ============= */
