@@ -437,7 +437,7 @@ footer {
 ._section1a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: "image1 landscaping_header aside" "image1 landscaping_body aside" "image2 hardscaping_header aside" "image2 hardscaping_body aside";
+  grid-template-areas: "image1 landscaping_header aside" "image1 landscaping_body aside" "image2 hardscaping_header aside" "image2 hardscaping_body aside";
 }
 ._section1a .landscaping_header {
   font-family: "Trirong";
