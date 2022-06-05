@@ -2,4 +2,13 @@
     Base
 ============= */
 
+._section2a{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "Maintenance Snow Firewood";
 
+    .s2a_text{
+        width: 344px;
+    }
+}

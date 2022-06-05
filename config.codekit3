@@ -162,15 +162,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/Hardscaping.jpg" : {
-      "ft" : 16384,
-      "iS" : 107169,
-      "jF" : 0,
+    "\/assets\/Hardscaping.png" : {
+      "ft" : 32768,
+      "iS" : 327387,
       "oA" : 0,
-      "oAP" : "\/assets\/Hardscaping.jpg",
+      "oAP" : "\/assets\/Hardscaping.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -255,7 +255,7 @@
     },
     "\/assets\/Logo.png" : {
       "ft" : 32768,
-      "iS" : 23299,
+      "iS" : 7370,
       "oA" : 0,
       "oAP" : "\/assets\/Logo.png",
       "oF" : 0,
@@ -370,15 +370,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/Waterfall.jpg" : {
-      "ft" : 16384,
-      "iS" : 364138,
-      "jF" : 0,
+    "\/assets\/Waterfall.png" : {
+      "ft" : 32768,
+      "iS" : 318571,
       "oA" : 0,
-      "oAP" : "\/assets\/Waterfall.jpg",
+      "oAP" : "\/assets\/Waterfall.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -610,15 +610,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/Hardscaping.jpg" : {
-      "ft" : 16384,
-      "iS" : 107169,
-      "jF" : 0,
+    "\/deploy\/img\/Hardscaping.png" : {
+      "ft" : 32768,
+      "iS" : 327387,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/Hardscaping.jpg",
+      "oAP" : "\/deploy\/img\/Hardscaping.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -703,7 +703,7 @@
     },
     "\/deploy\/img\/Logo.png" : {
       "ft" : 32768,
-      "iS" : 23299,
+      "iS" : 7370,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/Logo.png",
       "oF" : 0,
@@ -818,15 +818,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/Waterfall.jpg" : {
-      "ft" : 16384,
-      "iS" : 364138,
-      "jF" : 0,
+    "\/deploy\/img\/Waterfall.png" : {
+      "ft" : 32768,
+      "iS" : 318571,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/Waterfall.jpg",
+      "oAP" : "\/deploy\/img\/Waterfall.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1067,6 +1067,21 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/dev\/scss\/sections\/logo.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/review.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/review.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

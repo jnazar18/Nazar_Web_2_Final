@@ -1,0 +1,14 @@
+/* =============
+    Base
+============= */
+
+._review{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "Person r_text circles";
+}
+
+.r_text{
+    width: 340px;
+}

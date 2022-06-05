@@ -356,7 +356,9 @@ template {
     Typography
 ============= */
 body {
-  font-family: "Cabin", sans-serif;
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 16;
   color: #64665D;
 }
 
@@ -365,7 +367,6 @@ footer {
   font-size: 700;
   font-weight: 21;
   color: #E3E6DC;
-  background-color: #65715E;
 }
 
 h1 {
@@ -436,46 +437,33 @@ footer {
 ============= */
 ._section1a {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: "landscaping" "hardscaping";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "images text aside";
 }
-._section1a .landscaping {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas: "image1 landscaping_header" "image1 landscaping_body";
-}
-._section1a .landscaping .landscaping_header {
-  font-family: "Trirong";
-  font-weight: 700;
-  font-size: 24;
-  color: #64665D;
-}
-._section1a .landscaping .landscaping_body {
-  font-family: "Cabin", sans-serif;
-  color: #64665D;
-}
-._section1a .hardscaping {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas: "image1 hardscaping_header" "image1 hardscaping_body";
-}
-._section1a .hardscaping .hardscaping_header {
-  font-family: "Trirong";
-  font-weight: 700;
-  font-size: 24;
-  color: #64665D;
-}
-._section1a .hardscaping .hardscaping_body {
-  font-family: "Cabin", sans-serif;
-  color: #64665D;
+._section1a .text {
+  margin-right: 108px;
 }
 ._section1a .aside {
   background-color: #C3D4BC;
-  padding-left: 80px;
+  padding-left: 72px;
+  padding-right: 41px;
+  width: 352px;
+}
+._section1a .aside p {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 16;
+  color: #64665D;
 }
 
 /* =============
     Base
 ============= */
+._section2a {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "Maintenance Snow Firewood";
+}
+._section2a .s2a_text {
+  width: 344px;
+}
