@@ -366,7 +366,7 @@ h1 {
   color: #64665D;
 }
 
-.contact {
+h3 {
   font-family: "Rubik";
   font-weight: 600;
   font-size: 16;
@@ -401,12 +401,10 @@ textarea {
     Header
 ============= */
 .header {
+  width: 100%;
   display: grid;
   grid-template-columns: 10% 80% 10%;
-}
-
-.logo {
-  width: 30px;
+  background-color: #D8DECC;
 }
 
 /* =============

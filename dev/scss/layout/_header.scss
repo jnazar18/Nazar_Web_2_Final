@@ -3,11 +3,8 @@
 ============= */
 
 .header{
+    width: 100%;
     display: grid;
     grid-template-columns: 10% 80% 10%;
-
-}
-
-.logo{
-    width:30px;
+    background-color: #D8DECC;
 }
