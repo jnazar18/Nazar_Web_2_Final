@@ -436,26 +436,38 @@ footer {
 ============= */
 ._section1a {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "image1 landscaping_header aside" "image1 landscaping_body aside" "image2 hardscaping_header aside" "image2 hardscaping_body aside";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: "landscaping" "hardscaping";
 }
-._section1a .landscaping_header {
+._section1a .landscaping {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "image1 landscaping_header" "image1 landscaping_body";
+}
+._section1a .landscaping .landscaping_header {
   font-family: "Trirong";
   font-weight: 700;
   font-size: 24;
   color: #64665D;
 }
-._section1a .landscaping_body {
+._section1a .landscaping .landscaping_body {
   font-family: "Cabin", sans-serif;
   color: #64665D;
 }
-._section1a .hardscaping_header {
+._section1a .hardscaping {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "image1 hardscaping_header" "image1 hardscaping_body";
+}
+._section1a .hardscaping .hardscaping_header {
   font-family: "Trirong";
   font-weight: 700;
   font-size: 24;
   color: #64665D;
 }
-._section1a .hardscaping_body {
+._section1a .hardscaping .hardscaping_body {
   font-family: "Cabin", sans-serif;
   color: #64665D;
 }
