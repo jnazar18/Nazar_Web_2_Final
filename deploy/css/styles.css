@@ -360,8 +360,17 @@ body {
 }
 
 h1 {
-  font-family: "Helvetica";
-  font-size: 28px;
+  font-family: "Trirong";
+  font-weight: 700;
+  font-size: 28;
+  color: #64665D;
+}
+
+.contact {
+  font-family: "Rubik";
+  font-weight: 600;
+  font-size: 16;
+  color: #6E7D5C;
 }
 
 /* =============
