@@ -5,7 +5,7 @@
 ._section1a{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
+    grid-template-rows: 
     "image1 landscaping_header aside"
     "image1 landscaping_body aside"
     "image2 hardscaping_header aside"
