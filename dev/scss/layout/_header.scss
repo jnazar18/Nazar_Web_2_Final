@@ -5,8 +5,13 @@
 .header{
     width: 100%;
     display: grid;
-    grid-template-columns: 10% 80% 10%;
-    grid-template-rows:
-    "logo Title socials_dark";
+    grid-template-columns: 100%;
+
+    @include lg{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows:
+        "logo Title socials_dark";
+    }
+
     background-color: #D8DECC;
 }
