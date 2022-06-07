@@ -1,0 +1,17 @@
+/* =============
+    Section1
+============= */
+
+._section1b{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "l_text waterfall";
+    }
+    
+.l_text{
+    display: grid;
+    grid-template-rows: 81px 304px;
+    grid-template-areas:
+    "h2 l_body"
+}

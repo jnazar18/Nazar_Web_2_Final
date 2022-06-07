@@ -1,0 +1,22 @@
+/* =============
+    Base
+============= */
+
+._section3a{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "review video";
+}
+
+    .review{
+        width: 340px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+            "person r_text circles";
+
+}
+.person{
+    width: 10%;
+}

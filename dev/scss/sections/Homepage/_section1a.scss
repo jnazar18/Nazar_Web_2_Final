@@ -4,12 +4,26 @@
 
 ._section1a{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-    "images text aside";
+    grid-template-columns: 100%;
+
+    @include lg{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "images text aside";
+    }
+
+    .images{
+        @include lg{
+            grid-area: text;
+        }
+    }
 
     .text{
         margin-right: 108px;
+
+        @include lg{
+            grid-area: text;
+        }
     }
 
     .aside{
@@ -23,6 +37,10 @@
         padding-left: 72px;
         padding-right: 41px;
         width: 352px;
+        
+        @include lg{
+            grid-area: text;
+        }
     }
     
 }

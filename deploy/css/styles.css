@@ -421,14 +421,14 @@ textarea {
   width: 100%;
   display: grid;
   grid-template-columns: 10% 80% 10%;
-  grid-template-rows: "logo h1 socials_dark" "logo h1 search_bar";
+  grid-template-rows: "logo Title socials_dark";
   background-color: #D8DECC;
 }
 
 /* =============
     Footer
 ============= */
-footer {
+.footer {
   background-color: #65715E;
 }
 
@@ -437,11 +437,26 @@ footer {
 ============= */
 ._section1a {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "images text aside";
+  grid-template-columns: 100%;
+}
+@media (min-width: 1024px) {
+  ._section1a {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "images text aside";
+  }
+}
+@media (min-width: 1024px) {
+  ._section1a .images {
+    grid-area: text;
+  }
 }
 ._section1a .text {
   margin-right: 108px;
+}
+@media (min-width: 1024px) {
+  ._section1a .text {
+    grid-area: text;
+  }
 }
 ._section1a .aside {
   background-color: #C3D4BC;
@@ -455,6 +470,11 @@ footer {
   font-size: 16;
   color: #64665D;
 }
+@media (min-width: 1024px) {
+  ._section1a .aside {
+    grid-area: text;
+  }
+}
 
 /* =============
     Base
@@ -466,4 +486,39 @@ footer {
 }
 ._section2a .s2a_text {
   width: 344px;
+}
+
+/* =============
+    Base
+============= */
+._section3a {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "review video";
+}
+
+.review {
+  width: 340px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "person r_text circles";
+}
+
+.person {
+  width: 10%;
+}
+
+/* =============
+    Section1
+============= */
+._section1b {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "l_text waterfall";
+}
+
+.l_text {
+  display: grid;
+  grid-template-rows: 81px 304px;
+  grid-template-areas: "h2 l_body";
 }

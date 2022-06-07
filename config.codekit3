@@ -1027,7 +1027,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_section1a.scss" : {
+    "\/dev\/scss\/sections\/Homepage\/_section1a.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1036,13 +1036,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_section1a.css",
+      "oAP" : "\/dev\/scss\/sections\/Homepage\/_section1a.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_section2a.scss" : {
+    "\/dev\/scss\/sections\/Homepage\/_section2a.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1051,28 +1051,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_section2a.css",
+      "oAP" : "\/dev\/scss\/sections\/Homepage\/_section2a.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/logo.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/scss\/sections\/logo.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/sections\/review.scss" : {
+    "\/dev\/scss\/sections\/Homepage\/_section3a.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1081,7 +1066,22 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/review.css",
+      "oAP" : "\/dev\/scss\/sections\/Homepage\/_section3a.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/Landscaping\/_section1b.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/Landscaping\/_section1b.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
