@@ -12,10 +12,14 @@
         "images text aside";
     }
 
+    @include xl{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "images text aside";
+    }
+
     .images{
-        @include lg{
-            grid-area: text;
-        }
+        image-rendering: auto;
     }
 
     .text{

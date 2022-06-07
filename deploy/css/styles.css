@@ -445,10 +445,14 @@ textarea {
     grid-template-areas: "images text aside";
   }
 }
-@media (min-width: 1024px) {
-  ._section1a .images {
-    grid-area: text;
+@media (min-width: 1200px) {
+  ._section1a {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "images text aside";
   }
+}
+._section1a .images {
+  image-rendering: auto;
 }
 ._section1a .text {
   margin-right: 108px;
