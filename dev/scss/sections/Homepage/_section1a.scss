@@ -11,7 +11,7 @@
         grid-template-areas: 
         "images text aside";
     }
-
+    
     @include xl{
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas: 
@@ -19,7 +19,9 @@
     }
 
     .images{
-        image-rendering: auto;
+        @include lg{
+            grid-area: text;
+        }
     }
 
     .text{
