@@ -3,5 +3,11 @@
 ============= */
 
 .footer{
+    display: grid;
+    grid-template-columns: 100%;
     background-color: #65715E;
+    
+    @include lg{
+        width: 100%;
+}
 }

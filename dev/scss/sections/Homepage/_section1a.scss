@@ -5,21 +5,49 @@
 ._section1a{
     display: grid;
     grid-template-columns: 100%;
-
-    @include lg{
+    
+    @include sm{
+        width: 100%;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas: 
         "images text aside";
     }
-    
-    @include xl{
+    @include md{
+        width: 100%;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas: 
         "images text aside";
+    }
+    @include lg{
+        width: 100%;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "images text aside";
+    }
+    @include xl{
+        width: 100%;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "images text aside";
+    }
+
     }
 
     .images{
+
+         @include sm{
+            grid-area: text;
+        }
+
+        @include md{
+            grid-area: text;
+        }
+
         @include lg{
+            grid-area: text;
+        }
+
+        @include xl{
             grid-area: text;
         }
     }
@@ -27,7 +55,19 @@
     .text{
         margin-right: 108px;
 
+        @include sm{
+            grid-area: text;
+        }
+
+        @include md{
+            grid-area: text;
+        }
+
         @include lg{
+            grid-area: text;
+        }
+
+        @include xl{
             grid-area: text;
         }
     }
@@ -44,10 +84,20 @@
         padding-right: 41px;
         width: 352px;
         
+        @include sm{
+            grid-area: text;
+        }
+
+        @include md{
+            grid-area: text;
+        }
+
         @include lg{
             grid-area: text;
         }
+
+        @include xl{
+            grid-area: text;
+        }
     }
-    
-}
 

@@ -426,7 +426,7 @@ textarea {
 @media (min-width: 1024px) {
   .header {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: "logo Title socials_dark";
+    grid-template-areas: "logo Title socials_dark";
   }
 }
 
@@ -434,7 +434,14 @@ textarea {
     Footer
 ============= */
 .footer {
+  display: grid;
+  grid-template-columns: 100%;
   background-color: #65715E;
+}
+@media (min-width: 1024px) {
+  .footer {
+    width: 100%;
+  }
 }
 
 /* =============
@@ -446,43 +453,41 @@ textarea {
 }
 @media (min-width: 1024px) {
   ._section1a {
+    width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "images text aside";
   }
 }
-@media (min-width: 1200px) {
-  ._section1a {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "images text aside";
-  }
-}
+
 @media (min-width: 1024px) {
-  ._section1a .images {
+  .images {
     grid-area: text;
   }
 }
-._section1a .text {
+
+.text {
   margin-right: 108px;
 }
 @media (min-width: 1024px) {
-  ._section1a .text {
+  .text {
     grid-area: text;
   }
 }
-._section1a .aside {
+
+.aside {
   background-color: #C3D4BC;
   padding-left: 72px;
   padding-right: 41px;
   width: 352px;
 }
-._section1a .aside p {
+.aside p {
   font-family: "Rubik";
   font-weight: 400;
   font-size: 16;
   color: #64665D;
 }
 @media (min-width: 1024px) {
-  ._section1a .aside {
+  .aside {
     grid-area: text;
   }
 }
